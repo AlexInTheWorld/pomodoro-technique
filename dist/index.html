@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - It is Pomodoro Time</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="img">
+
+<svg width="350" height="315" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="317" width="352" y="-1" x="-1"/>
+ </g>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_107">
+   <g id="svg_2">
+    <g id="svg_7">
+     <path stroke-width="2" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" id="svg_68" fill="#ff0000" d="m171.666428,114.353576c-52,-37.05698 -97,-6.17616 -111.5,10.49948c-14.5,16.67564 -36.5,62.37924 -14.5,130.31703c22,67.93779 92,48.17407 128.5,52.49738c36.5,4.32332 98.5,-0.61761 120.5,-48.79168c22,-48.17407 17,-109.9357 -23.5,-146.37506c-40.5,-36.43936 -99.5,1.85285 -99.5,1.85285z"/>
+     <path stroke-width="2" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" id="svg_69" fill="#007f00" d="m172.666428,113.577216c-81,-61.53254 -219,70.48273 -148,1.11878c71,-69.36397 148,-1.11878 148,-1.11878z"/>
+     <path stroke-width="2" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" id="svg_74" fill="#007f00" d="m171.666428,114.458446c104,-74.95783 226,90.62065 149,3.35632c-77,-87.26434 -149,-3.35632 -149,-3.35632z"/>
+     <path stroke-width="2" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" id="svg_106" fill="#007f00" d="m170.569368,110.228466c-8.72345,-10.50616 -8.44476,-53.67945 -8.97256,-54.0192c-0.5278,-0.33974 11.80577,28.18846 24.27869,-0.67949c12.47291,-28.86794 -6.58268,65.20484 -15.30613,54.69869z"/>
+    <text x="38" y="210" fill="white" id="heading">POMODORO TIMER</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
+</div>
+<nav>
+<span id="definition" href="#">What's this? |</span>
+<span id="description" href="#">The principles</span>
+</nav>
+<div id="text-container">
+<section data-id="definition" hidden>
+  <h2>The Pomodoro Technique</h2>
+  <p>It is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro.</p>
+</section>
+<section data-id="description" hidden>
+  <h2>The original six steps</h2>
+    <ol>
+        <li>Decide on the task to be done.</li>
+        <li>Set the pomodoro timer (traditionally to 25 minutes).</li>
+        <li>Work on the task.</li>
+        <li>End work when the timer rings and put a checkmark on a piece of paper.</li>
+        <li>If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.</li>
+        <li>After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.</li>
+    </ol>
+</section>
+</div>
+<div id="app"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.production.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.production.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

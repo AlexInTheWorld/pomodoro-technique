@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Oxanium|Permanent+Marker|Squada+One|Sunshiney&display=swap');
+
+body {
+  text-align: center;
+    background-color: beige;
+   font-family: 'Sunshiney', cursive; 
+}
+
+
+#heading {
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.length-control {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Squada One', cursive;
+    
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  font-family: 'Oxanium', cursive;
+}
+
+span {
+cursor: pointer;
+}
+
+section {
+  text-align: left;
+    background-color: azure;
+}
+
+h2 {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ol {
+  margin-left: 15px;
+padding: 0;
+}
+
+.fas {
+    color: #380438;
+}
+
+.time-wrapper {
+    font-size: 36px;
+    font-family: 'Fredoka One', cursive;
+    margin: auto;
+    border: 5px solid #000066;
+    border-radius: 15%;
+    width: 150px;
+    background-color: #F0F6F4;
+    color: #3F0B81;
+}
+
+#time-left {
+    color: #231F20;
+}
+
+button {
+    margin: 0 5px;
+    background-color: #BBC9DD;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#start_stop, #reset {
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .length-control {
+  display: inline-block;
+    margin-bottom: 15px;
+}
+    
+#text-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+    background-color: #D7FFFE;
+    border: 1px solid blue;
+}
+
+section:first-of-type {
+  grid-column: 1 / 2;
+  text-align: right;
+}
+
+section:nth-child(2) {
+  grid-column: 2 / 3;
+  text-align: left;
+}
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
